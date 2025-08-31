@@ -31,7 +31,7 @@ const MercatorGallery: React.FC = () => {
           <div className="mb-12">
             <div className="w-full max-w-4xl mx-auto rounded-lg overflow-hidden shadow-2xl mb-8">
               <img 
-                src="/Cartographic_Prestidigation_Teaser.png" 
+                src="/MercatorDeceptionGallery.png" 
                 alt="Cartographic Prestidigation Preview" 
                 className="w-full h-64 md:h-80 object-cover"
               />
@@ -54,7 +54,7 @@ const MercatorGallery: React.FC = () => {
           <div className="absolute inset-0 bg-black flex items-center justify-center z-20">
             <div className="w-full h-full relative">
               <img 
-                src="/Cartographic_Prestidigation_Teaser.png" 
+                src="/MercatorDeceptionGallery.png" 
                 alt="Cartographic Prestidigation - Click to enter 3D Gallery" 
                 className="w-full h-full object-cover cursor-pointer"
                 onClick={handleManualOpen}

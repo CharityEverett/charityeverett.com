@@ -64,7 +64,7 @@ const HomePage: React.FC = () => {
       <section 
         className="min-h-screen flex items-start justify-center px-6 pt-24 pb-12 bg-cover bg-center bg-no-repeat relative"
         style={{ 
-          backgroundImage: 'url(/Cartographic_Prestidigation_Teaser.png)',
+          backgroundImage: 'url(/MercatorDeceptionGallery.png)',
         }}
       >
         {/* Overlay for better text readability */}
