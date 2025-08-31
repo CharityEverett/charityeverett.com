@@ -26,16 +26,6 @@ const Navigation: React.FC = () => {
             >
               HOME
             </Link>
-            <Link
-              to="/mercator-gallery"
-              className={`text-sm tracking-[0.1em] transition-colors ${
-                location.pathname === '/mercator-gallery' 
-                  ? 'text-white border-b border-white' 
-                  : 'text-gray-300 hover:text-white'
-              }`}
-            >
-              MERCATOR DECEPTION GALLERY
-            </Link>
           </div>
         </div>
       </div>
