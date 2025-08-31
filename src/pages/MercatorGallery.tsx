@@ -19,7 +19,7 @@ const MercatorGallery: React.FC = () => {
       <section className="flex-1 min-h-screen bg-black">
         <div className="w-full h-screen relative">
           <iframe 
-            src="https://my.spline.design/untitled-RTenObg6sBObco2phkTM2Yp7/" 
+            src={`https://my.spline.design/untitled-RTenObg6sBObco2phkTM2Yp7/?v=${Date.now()}`}
             frameBorder="0"
             allowFullScreen
             loading="lazy"
