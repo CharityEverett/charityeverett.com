@@ -50,6 +50,41 @@ const MercatorGallery: React.FC = () => {
       {/* 3D Gallery Section */}
       <section className="flex-1 min-h-screen bg-black">
         <div className="w-full h-screen relative">
+          {/* Preview Image Overlay - Always visible */}
+          <div className="absolute inset-0 bg-black flex items-center justify-center z-20">
+            <div className="w-full h-full relative">
+              <img 
+                src="/Cartographic_Prestidigation_Teaser.png" 
+                alt="Cartographic Prestidigation - Click to enter 3D Gallery" 
+                className="w-full h-full object-cover cursor-pointer"
+                onClick={handleManualOpen}
+              />
+              
+              {/* Overlay content on top of image */}
+              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+                <div className="text-center text-white max-w-md mx-auto px-6">
+                  <Compass className="w-16 h-16 mx-auto mb-6 text-yellow-500 animate-spin" style={{ animationDuration: '3s' }} />
+                  
+                  <h3 className="text-2xl font-cinzel font-light mb-4 tracking-[0.1em]">
+                    ENTER IMMERSIVE GALLERY
+                  </h3>
+                  
+                  <p className="text-gray-200 mb-8 leading-relaxed">
+                    Click anywhere to experience the full interactive 3D environment
+                  </p>
+                  
+                  <button
+                    onClick={handleManualOpen}
+                    className="bg-yellow-600 hover:bg-yellow-700 text-black px-8 py-3 rounded-full text-sm tracking-[0.1em] font-medium transition-colors duration-300 flex items-center gap-2 mx-auto"
+                  >
+                    <ExternalLink className="w-4 h-4" />
+                    ENTER GALLERY
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
           {/* Overlay */}
           {showOverlay && (
             <div className="absolute inset-0 bg-black bg-opacity-95 flex items-center justify-center z-10">
