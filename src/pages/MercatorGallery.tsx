@@ -28,12 +28,22 @@ const MercatorGallery: React.FC = () => {
       {/* Header Section */}
       <section className="bg-black text-white py-20 px-6">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-cinzel font-light tracking-[0.2em] text-white mb-8">
-            MERCATOR DECEPTION GALLERY
-          </h1>
-          <p className="text-lg md:text-xl text-gray-300 font-light leading-relaxed max-w-3xl mx-auto">
-            An immersive exploration of cartographic perception and the hidden biases within our understanding of global geography.
-          </p>
+          <div className="mb-12">
+            <div className="w-full max-w-4xl mx-auto rounded-lg overflow-hidden shadow-2xl mb-8">
+              <img 
+                src="/Cartographic_Prestidigation_Teaser.png" 
+                alt="Cartographic Prestidigation Preview" 
+                className="w-full h-64 md:h-80 object-cover"
+              />
+            </div>
+            
+            <h1 className="text-4xl md:text-5xl font-cinzel font-light tracking-[0.2em] text-white mb-8">
+              MERCATOR DECEPTION GALLERY
+            </h1>
+            <p className="text-lg md:text-xl text-gray-300 font-light leading-relaxed max-w-3xl mx-auto">
+              An immersive exploration of cartographic perception and the hidden biases within our understanding of global geography.
+            </p>
+          </div>
         </div>
       </section>
 
