@@ -1,6 +1,28 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { ExternalLink, Compass } from 'lucide-react';
 
 const MercatorGallery: React.FC = () => {
+  const [showOverlay, setShowOverlay] = useState(true);
+  const [countdown, setCountdown] = useState(3);
+
+  useEffect(() => {
+    if (showOverlay && countdown > 0) {
+      const timer = setTimeout(() => {
+        setCountdown(countdown - 1);
+      }, 1000);
+      return () => clearTimeout(timer);
+    } else if (countdown === 0) {
+      // Automatically open Spline in new tab
+      window.open('https://my.spline.design/untitled-RTenObg6sBObco2phkTM2Yp7/', '_blank');
+      setShowOverlay(false);
+    }
+  }, [showOverlay, countdown]);
+
+  const handleManualOpen = () => {
+    window.open('https://my.spline.design/untitled-RTenObg6sBObco2phkTM2Yp7/', '_blank');
+    setShowOverlay(false);
+  };
+
   return (
     <div className="min-h-screen bg-black pt-16">
       {/* Header Section */}
@@ -18,6 +40,54 @@ const MercatorGallery: React.FC = () => {
       {/* 3D Gallery Section */}
       <section className="flex-1 min-h-screen bg-black">
         <div className="w-full h-screen relative">
+          {/* Overlay */}
+          {showOverlay && (
+            <div className="absolute inset-0 bg-black bg-opacity-95 flex items-center justify-center z-10">
+              <div className="text-center text-white max-w-md mx-auto px-6">
+                <Compass className="w-16 h-16 mx-auto mb-6 text-yellow-500 animate-spin" style={{ animationDuration: '3s' }} />
+                
+                <h3 className="text-2xl font-cinzel font-light mb-4 tracking-[0.1em]">
+                  ENTERING IMMERSIVE GALLERY
+                </h3>
+                
+                <p className="text-gray-300 mb-8 leading-relaxed">
+                  Experience the full interactive 3D environment in a dedicated window for optimal viewing and navigation.
+                </p>
+                
+                {countdown > 0 ? (
+                  <div className="mb-6">
+                    <p className="text-yellow-500 text-lg mb-2">
+                      Opening in {countdown} second{countdown !== 1 ? 's' : ''}...
+                    </p>
+                    <div className="w-full bg-gray-700 rounded-full h-2">
+                      <div 
+                        className="bg-yellow-500 h-2 rounded-full transition-all duration-1000"
+                        style={{ width: `${((3 - countdown) / 3) * 100}%` }}
+                      ></div>
+                    </div>
+                  </div>
+                ) : (
+                  <p className="text-green-400 text-lg mb-6">Opening gallery...</p>
+                )}
+                
+                <button
+                  onClick={handleManualOpen}
+                  className="bg-yellow-600 hover:bg-yellow-700 text-black px-8 py-3 rounded-full text-sm tracking-[0.1em] font-medium transition-colors duration-300 flex items-center gap-2 mx-auto"
+                >
+                  <ExternalLink className="w-4 h-4" />
+                  OPEN GALLERY NOW
+                </button>
+                
+                <button
+                  onClick={() => setShowOverlay(false)}
+                  className="mt-4 text-gray-400 hover:text-white text-sm underline transition-colors"
+                >
+                  View embedded version instead
+                </button>
+              </div>
+            </div>
+          )}
+          
           <iframe 
             src={`https://my.spline.design/untitled-RTenObg6sBObco2phkTM2Yp7/?v=${Date.now()}`}
             frameBorder="0"
