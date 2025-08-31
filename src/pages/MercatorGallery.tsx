@@ -177,7 +177,7 @@ const MercatorGallery: React.FC = () => {
             </p>
             
             <p className="bg-gray-50 p-6 rounded-lg border-l-4 border-yellow-600">
-              <strong>Audio Experience:</strong> Audio elements are present within the digital gallery space; click anywhere inside the environment to experience waves and a looping musical motif.
+              <strong>Audio Experience:</strong> Audio elements are present within the digital gallery space; click anywhere inside the environment for the full experience.
             </p>
             
             <p className="text-gray-600 italic">
