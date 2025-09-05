@@ -126,7 +126,7 @@ const HomePage: React.FC = () => {
               <img 
                 src="/CharityPhoto.jpg" 
                 alt="Charity Everett" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover transform rotate-180"
               />
             </div>
           </div>
