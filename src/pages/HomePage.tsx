@@ -111,11 +111,11 @@ const HomePage: React.FC = () => {
             
             <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
               <p>
-                I am an artist committed to transformation; where every break, scar, and seam becomes an invitation to rediscover beauty. Inspired by kintsugi, the Japanese art of repair with gold, my practice melds the warmth of hand-carved wood with the promise of renewal. Each work tells a story of resilience, honor for imperfection, and the boldness to reimagine what's possible.
+                Every element of my practice is an argument for repair; not just of objects, but of habits of seeing. I build functional sculpture at the intersection of woodcraft, kintsugi, and immersive design: physical works that serve, assemble, and provoke as much as they adorn. My methods are rooted in studio furniture and high craft, but I intentionally fracture, mend, and overlay these forms to confront inherited distortions; be those in a map's projection or in collective memory.
               </p>
               
               <p>
-                Incorporating craft, technology, and immersive XR, I aim to bridge heritage with the future. I invite viewers to see both the fracture and the restoration with new eyes.
+                My art is not passive. Wall-mounted reliefs, charging stations, and wearable components are crafted for touch, activation, and sustained public use. The act of repair, inspired by kintsugi, is literal and conceptual. Gold seams map not just broken wood but a strategy for confronting privilege, rewriting history, and reflecting on what collective restoration means today. I design these works as environments: participants use their hands, don elements, and inhabit spatial overlays; always encountering both rupture and restoration in real time.
               </p>
             </div>
           </div>
