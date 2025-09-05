@@ -207,7 +207,7 @@ const HomePage: React.FC = () => {
                   <img 
                     src="/PicsArt_02-04-06.00.06 (2).jpg" 
                     alt="Game Developer's Conference" 
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover transform rotate-180"
                   />
                 </div>
                 <h3 className="text-sm font-medium mb-1">Harvard Semitic Museum</h3>
@@ -231,7 +231,7 @@ const HomePage: React.FC = () => {
                   <img 
                     src="/Who Am I.jpg" 
                     alt="IDEA New Rochelle" 
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover transform rotate-180"
                   />
                 </div>
                 <h3 className="text-sm font-medium mb-1">Institute of Contemporary Art</h3>
@@ -255,7 +255,7 @@ const HomePage: React.FC = () => {
                   <img 
                     src="/IDEA_WINGER-BEARSKIN.003.jpeg" 
                     alt="Futurist in Residence" 
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover transform rotate-180"
                   />
                 </div>
                 <h3 className="text-sm font-medium mb-1">Futurist in Residence</h3>
@@ -292,7 +292,7 @@ const HomePage: React.FC = () => {
                   <img 
                     src="/PicsArt_02-04-06.00.06 (2).jpg" 
                     alt="Game Developer's Conference" 
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover transform rotate-180"
                   />
                 </div>
                 <h3 className="text-sm font-medium mb-1">Harvard Semitic Museum</h3>
@@ -316,7 +316,7 @@ const HomePage: React.FC = () => {
                   <img 
                     src="/Who Am I.jpg" 
                     alt="IDEA New Rochelle" 
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover transform rotate-180"
                   />
                 </div>
                 <h3 className="text-sm font-medium mb-1">Institute of Contemporary Art</h3>
@@ -340,7 +340,7 @@ const HomePage: React.FC = () => {
                   <img 
                     src="/IDEA_WINGER-BEARSKIN.003.jpeg" 
                     alt="Futurist in Residence" 
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover transform rotate-180"
                   />
                 </div>
                 <h3 className="text-sm font-medium mb-1">Futurist in Residence</h3>
