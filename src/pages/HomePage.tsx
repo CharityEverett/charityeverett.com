@@ -106,7 +106,7 @@ const HomePage: React.FC = () => {
           {/* Content */}
           <div className="flex-1 max-w-3xl">
             <h3 className="text-3xl md:text-4xl font-light mb-8 text-center lg:text-left">
-              From Broken to Beautiful
+              Gold-Mended Perception: Repair as Function
             </h3>
             
             <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
