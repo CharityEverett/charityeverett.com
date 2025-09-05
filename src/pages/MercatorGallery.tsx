@@ -43,6 +43,9 @@ const MercatorGallery: React.FC = () => {
             <p className="text-lg md:text-xl text-gray-300 font-light leading-relaxed max-w-3xl mx-auto">
               An immersive exploration of cartographic perception and the hidden biases within our understanding of global geography.
             </p>
+            <p className="text-lg md:text-xl text-yellow-400 font-medium leading-relaxed max-w-3xl mx-auto mt-6 tracking-[0.1em]">
+              TURN ON SPEAKERS, AND CLICK WITHIN THE SPACE FOR FULL IMMERSIVE EXPERIENCE
+            </p>
           </div>
         </div>
       </section>
