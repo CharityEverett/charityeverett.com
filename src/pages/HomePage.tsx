@@ -94,7 +94,7 @@ const HomePage: React.FC = () => {
               onClick={scrollToContact}
               className="bg-white text-gray-900 px-10 py-4 rounded-full text-sm tracking-[0.2em] font-medium hover:bg-gray-50 transition-colors duration-300 shadow-lg cursor-pointer"
             >
-              RECONNECT. REDISCOVER. REIMAGINE WITH ME.
+              ENTER THE SPACE OF REPAIR
             </button>
           </div>
         </div>
