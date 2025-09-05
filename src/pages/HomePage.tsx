@@ -87,7 +87,7 @@ const HomePage: React.FC = () => {
             </p>
             
             <p className="text-lg md:text-xl text-white mb-8 lg:mb-12 font-light leading-relaxed max-w-2xl text-left">
-              Fusing ancient kintsugi with contemporary craft; as seen in wood, gold, and vision.
+              Remapping perception: gold-mended wood, lived craft, future vision.
             </p>
             
             <button 
