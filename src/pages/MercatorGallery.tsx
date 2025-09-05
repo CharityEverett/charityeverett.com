@@ -73,7 +73,7 @@ const MercatorGallery: React.FC = () => {
                   </h3>
                   
                   <p className="text-gray-200 mb-8 leading-relaxed">
-                    Click anywhere to experience the full interactive 3D environment
+                    TURN ON SPEAKERS, AND CLICK WITHIN THE SPACE FOR FULL IMMERSIVE EXPERIENCE
                   </p>
                   
                   <button
