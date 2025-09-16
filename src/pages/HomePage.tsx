@@ -79,7 +79,7 @@ const HomePage: React.FC = () => {
             
             <h2 className="text-2xl md:text-4xl lg:text-5xl font-cinzel font-light text-white mb-8 lg:mb-12 leading-tight text-left">
               CARTOGRAPHIC<br />
-              PRESTIDIGATION: GOLD-MENDED<br />
+              PRESTIDIGITATION: GOLD-MENDED<br />
               ATLAS
             </h2>
             
