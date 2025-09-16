@@ -116,6 +116,7 @@ const HomePage: React.FC = () => {
               
               <p>
                 My art is not passive. The act of repair, inspired by kintsugi, is literal and conceptual. Gold seams map not just broken wood but a strategy for confronting privilege, rewriting history, and reflecting on what collective restoration means today. I design these works as environments: participants use their hands, don elements, and inhabit spatial overlays; always encountering both rupture and restoration in real time.
+                My art is not passive. The act of repair, inspired by kintsugi, is literal and conceptual. Gold seams map not just broken wood but a strategy for confronting privilege, rewriting history, and reflecting on what collective restoration means today. I design these works as environments: always encountering both rupture and restoration in real time.
               </p>
             </div>
           </div>
