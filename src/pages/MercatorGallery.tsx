@@ -184,7 +184,7 @@ const MercatorGallery: React.FC = () => {
             </p>
             
             <p className="text-gray-600 italic">
-              Navigate through the 3D space above to discover how different projections reveal different truths about our world.
+              Click within the space upon loading, and allow yourself to be taken on a contemplative journey on the impacts of the Mercator map on our collective perceptions.
             </p>
           </div>
         </div>
