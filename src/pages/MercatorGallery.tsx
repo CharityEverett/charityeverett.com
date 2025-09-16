@@ -179,10 +179,6 @@ const MercatorGallery: React.FC = () => {
               challenging viewers to reconsider their spatial understanding of our planet.
             </p>
             
-            <p className="bg-gray-50 p-6 rounded-lg border-l-4 border-yellow-600">
-              <strong>Audio Experience:</strong> Audio elements are present within the digital gallery space; click anywhere inside the environment for the full experience.
-            </p>
-            
             <p className="text-gray-600 italic">
               Click within the space upon loading, and allow yourself to be taken on a contemplative journey on the impacts of the Mercator map on our collective perceptions.
             </p>
